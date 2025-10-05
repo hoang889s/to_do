@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@tailwind base;
+.custom-list-scroll::-webkit-scrollbar{
+    width: 8px;
+}
+.custom-list-scroll::-webkit-scrollbar-track{
+    background: #EEEFE0
+}
+.custom-list-scroll::-webkit-scrollbar-thumb{
+    background: black;       
+  border-radius: 4px;
+}
+.custom-list-scroll::-webkit-scrollbar-thumb:hover {
+  background: #5a6d66;       /* màu khi hover */
+}
