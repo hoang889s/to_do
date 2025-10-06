@@ -8,5 +8,9 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+<<<<<<< HEAD
   base: '/to_do/',
+=======
+  base: '/viec_can_lam/',
+>>>>>>> d9e977da052652ed60b5ccd86b083f0bdb110a4c
 })

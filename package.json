@@ -1,14 +1,24 @@
 {
+<<<<<<< HEAD
   "homepage": "https://hoang889s.github.io/to_do/",
+=======
+  "homepage": "https://hoang889s.github.io/viec_can_lam/",
+>>>>>>> d9e977da052652ed60b5ccd86b083f0bdb110a4c
   "name": "thuc_hien_cong_viec",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -r https://github.com/hoang889s/to_do.git",
     "build": "vite build",
+=======
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
+    "build": "tsc -b && vite build",
+>>>>>>> d9e977da052652ed60b5ccd86b083f0bdb110a4c
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -16,8 +26,12 @@
     "@tailwindcss/vite": "^4.1.14",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+<<<<<<< HEAD
     "tailwindcss": "^4.1.14",
     "zustand": "^5.0.8"
+=======
+    "tailwindcss": "^4.1.14"
+>>>>>>> d9e977da052652ed60b5ccd86b083f0bdb110a4c
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
